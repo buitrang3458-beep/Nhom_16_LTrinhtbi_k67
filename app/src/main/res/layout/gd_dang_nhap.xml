@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#40454E"
+    tools:context=".Activity.Screen_DangNhap">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hàng triệu bài hát."
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Miễn phí trên Cat Music"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btn_dangky"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Đăng ký miễn phí"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:backgroundTint="#65719B"
+            />
+
+        <Button
+            android:id="@+id/btn_dk_sdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_dk"
+            android:drawableLeft="@mipmap/dien_thoai"
+            android:text="Tiếp tục bằng sđt"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_dk_gg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/gg"
+            android:text="Tiếp tục bằng google"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_dk"
+            app:backgroundTint="@null"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/btn_dk_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/fb"
+            android:text="Tiếp tục bằng facebook"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_dk"
+            app:backgroundTint="@null"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/btn_dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dk_dieukhoan"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+</LinearLayout>
